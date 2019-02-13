@@ -34,8 +34,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
 		<!-- report name -->
@@ -48,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 9, 2019 08:32:47 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 13, 2019 06:18:21 PM</span>
 				</a>
 			</li>
 			<li>
@@ -73,8 +72,7 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
+											<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -82,18 +80,6 @@
 			<!-- test toggle -->
 
 			<!-- category toggle -->
-			<div class='chip transparent'>
-				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
-					<i class='material-icons'>local_offer</i> Category
-				</a>
-				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>经营管理平台</a></li>
-					<li><a href='#'>采购管理系统</a></li>
-					<li><a href='#'>人资管理系统</a></li>
-					<li class='divider'></li>
-					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
-				</ul>
-			</div>
 			<!-- category toggle -->
 
 			<!-- clear filters -->
@@ -137,10 +123,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='14.286%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='85.714%'>6</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -152,10 +138,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='14.286%'><span class='strong'>1</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='85.714%'>6</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -170,269 +156,36 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf skip' status='skip' bdd='false' test-id='1'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>经营管理平台 : 采购管理系统</span>
-						<span class='test-time'>Jan 9, 2019 08:32:47 PM</span>
+						<span class='test-name'>Login---Login</span>
+						<span class='test-time'>Feb 13, 2019 06:18:21 PM</span>
 						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 9, 2019 08:32:47 PM</span>
-	<span class='label end-time'>Jan 9, 2019 08:32:52 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+24ms</span>
+	<span class='label start-time'>Feb 13, 2019 06:18:21 PM</span>
+	<span class='label end-time'>Feb 13, 2019 06:18:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
 </div>
-	<div class='test-desc'>Pass: 0 ; Fail: 0 ; Skip: 6 ; </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>经营管理平台</span>
-				<span class='category label white-text'>采购管理系统</span>
-			</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>6:18:21 PM</td>
+					<td class='step-details'>Test skiped</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
-	<ul class='collapsible node-list' data-collapsible='accordion'>
-		
-				<li class='node level-1 leaf skip' status='skip' test-id='2'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>Login---Login</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 5s+343ms</span>
-						<span class='test-status right skip'>skip</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>采购管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test skiped</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-				<li class='node level-1 leaf skip' status='skip' test-id='3'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>invoice---新增来票</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 5s+177ms</span>
-						<span class='test-status right skip'>skip</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>采购管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test skiped</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-				<li class='node level-1 leaf skip' status='skip' test-id='4'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>contactList---新增联系单</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 5s+177ms</span>
-						<span class='test-status right skip'>skip</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>采购管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test skiped</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-				<li class='node level-1 leaf skip' status='skip' test-id='5'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>examine---审批</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 5s+177ms</span>
-						<span class='test-status right skip'>skip</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>采购管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test skiped</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-				<li class='node level-1 leaf skip' status='skip' test-id='6'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>purchase---采购流程</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 5s+177ms</span>
-						<span class='test-status right skip'>skip</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>采购管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test skiped</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-				<li class='node level-1 leaf skip' status='skip' test-id='7'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>addPaymentApproval---填写支付审批单</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 5s+178ms</span>
-						<span class='test-status right skip'>skip</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>采购管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='skip'>
-													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test skiped</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-	</ul>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='8'>
-					<div class='test-heading'>
-						<span class='test-name'>经营管理平台 : 人资管理系统</span>
-						<span class='test-time'>Jan 9, 2019 08:32:47 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Jan 9, 2019 08:32:47 PM</span>
-	<span class='label end-time'>Jan 9, 2019 08:32:57 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+979ms</span>
-</div>
-	<div class='test-desc'>Pass: 1 ; Fail: 0 ; Skip: 0 ; </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>经营管理平台</span>
-				<span class='category label white-text'>人资管理系统</span>
-			</div>
-	</div>
-	<ul class='collapsible node-list' data-collapsible='accordion'>
-		
-				<li class='node level-1 leaf pass' status='pass' test-id='9'>
-					<div class='collapsible-header'>
-						<h5 class='node-name'>Login---Login</h5>
-						<span class="node-time label grey lighten-1 white-text">Jan 9, 2019 08:32:57 PM</span>
-						<span class='node-duration label grey lighten-1 white-text'>0h 0m 3s+352ms</span>
-						<span class='test-status right pass'>pass</span>
-								<span class='category label white-text'>经营管理平台</span>
-								<span class='category label white-text'>人资管理系统</span>
-					</div>
-						<div class='collapsible-body'>
-								<div class='node-steps'>
-									<table class='bordered table-results'>
-										<thead>
-											<tr>
-												<th>Status</th>
-												<th>Timestamp</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-												<tr class='log' status='debug'>
-													<td class='status debug' title='debug' alt='debug'><i class='material-icons'>low_priority</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Success,Nice</td>
-												</tr>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>8:32:57 PM</td>
-													<td class='step-details'>Test passed</td>
-												</tr>
-										</tbody>
-									</table>
-								</div>
-						</div>
-				</li>
-	</ul>
 					</div>
 				</li>
 			</ul>
@@ -460,220 +213,6 @@
 
 </div>
 <!-- test view -->
-<div id='category-view' class='view hide'>
-
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-					<i class='material-icons'>search</i> Search
-				</a>
-				
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-				
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-
-	<div class='subview-left left'>
-		
-		<div class='view-summary'>
-			<h5>Categories</h3>
-			<ul id='category-collection' class='category-collection'>
-				
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>经营管理平台</span>
-						<span class='category-status right'>
-							<span class='label pass'>2</span>
-							<span class='label others'>7</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
-							
-							<span class='label yellow darken-2 white-text'>Others: 7</span>
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jan 9, 2019 08:32:47 PM</td>
-										<td class='linked' test-id='1'>采购管理系统</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='2'>采购管理系统.Login---Login</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='3'>采购管理系统.invoice---新增来票</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='4'>采购管理系统.contactList---新增联系单</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='5'>采购管理系统.examine---审批</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='6'>采购管理系统.purchase---采购流程</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='7'>采购管理系统.addPaymentApproval---填写支付审批单</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:47 PM</td>
-										<td class='linked' test-id='8'>人资管理系统</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:54 PM</td>
-										<td class='linked' test-id='9'>人资管理系统.Login---Login</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>采购管理系统</span>
-						<span class='category-status right'>
-							<span class='label others'>7</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							
-							
-							<span class='label yellow darken-2 white-text'>Others: 7</span>
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jan 9, 2019 08:32:47 PM</td>
-										<td class='linked' test-id='1'>采购管理系统</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='2'>采购管理系统.Login---Login</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='3'>采购管理系统.invoice---新增来票</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='4'>采购管理系统.contactList---新增联系单</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='5'>采购管理系统.examine---审批</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='6'>采购管理系统.purchase---采购流程</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:52 PM</td>
-										<td class='linked' test-id='7'>采购管理系统.addPaymentApproval---填写支付审批单</td>
-										<td><span class='test-status skip'>skip</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>人资管理系统</span>
-						<span class='category-status right'>
-							<span class='label pass'>2</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jan 9, 2019 08:32:47 PM</td>
-										<td class='linked' test-id='8'>人资管理系统</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Jan 9, 2019 08:32:54 PM</td>
-										<td class='linked' test-id='9'>人资管理系统.Login---Login</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-
-			</ul>
-		</div>
-	</div>
-
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='category-name'></h5>
-		</div>
-	</div>
-</div>
 <!-- category view -->
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
@@ -684,73 +223,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 9, 2019 08:32:47 PM</div>
+					<div class='panel-lead'>Feb 13, 2019 06:18:21 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 9, 2019 08:32:57 PM</div>
+			 		<div class='panel-lead'>Feb 13, 2019 06:18:21 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 10s+203ms</div>
-				</div>
-			</div>
-			<div class='col s6'>
-				<div class='card-panel dashboard-categories'>
-					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
-					
-					<table>
-						<tr>
-							<th>Name</th>
-							<th>Passed</th>
-							<th>Failed</th>
-							<th>Others</th>
-							<th>Passed %</th>
-						</tr>
-						<tr>
-							<td>经营管理平台</td>
-							<td>2</td>
-							<td>0</td>
-							<td>7</td>
-							<td>
-									22.222%
-							</td>
-						</tr>
-						<tr>
-							<td>采购管理系统</td>
-							<td>0</td>
-							<td>0</td>
-							<td>7</td>
-							<td>
-									0%
-							</td>
-						</tr>
-						<tr>
-							<td>人资管理系统</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-					</table>
+					<div class='panel-lead'>0h 0m 0s+269ms</div>
 				</div>
 			</div>
 		</div>
@@ -763,22 +260,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
+				passParent: 0,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 6,
-				exceptionsParent: 6,
+				skipParent: 1,
+				exceptionsParent: 1,
 				
-				passChild: 1,
+				passChild: 0,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 6,
+				skipChild: 1,
 				infoChild: 0,
-				exceptionsChild: 7,
+				exceptionsChild: 1,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
