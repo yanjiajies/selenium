@@ -14,39 +14,17 @@ import java.io.File;
 import java.io.IOException;
 
 
-            public class TestFailListener extends TestListenerAdapter  {
-                public static WebDriver driver;
-                public void onTestFailure(ITestResult tr) {
-                    super.onTestFailure(tr);
-                    takePhoto(driver);
-                    logCaseStep(tr);
-                    exceptedResult(tr);
-                }
+                public class TestFailListener extends TestListenerAdapter {
+                    public static WebDriver driver;
+                    @Override
+                    public void onTestFailure(ITestResult result) {
+                        takePhoto();
+                    }
 
+                    @Attachment(value = "screen shot",type = "image/png")
+                    public byte[]  takePhoto(){
+                        byte[] screenshotAs = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+                        return screenshotAs;
+                    }
 
-                @Attachment(value = "失败截图如下：",type = "image/png")
-                public byte[]  takePhoto(WebDriver driver){
-                    byte[] screenshotAs = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-                    return screenshotAs;
                 }
-
-                /**
-                 * 打印测试步骤
-                 * @param tr
-                 */
-                @Attachment(value = "操作步骤如下：")
-                public String logCaseStep(ITestResult tr){
-                    String step = "1、打开浏览器  2、输入百度地址";
-                    return step;
-                }
-
-                /**
-                 * 打印测试步骤
-                 * @param tr
-                 */
-                @Attachment(value = "期望结果如下：")
-                public String exceptedResult(ITestResult tr){
-                    String result = "显示查询结果";
-                    return result;
-                }
-            }

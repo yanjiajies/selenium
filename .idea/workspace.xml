@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/SeledieDemoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/TestngListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,7 +121,7 @@
           <entry key="aj" value="14" />
           <entry key="class" value="10" />
           <entry key="dummy" value="78" />
-          <entry key="java" value="39954" />
+          <entry key="java" value="39975" />
           <entry key="properties" value="1" />
           <entry key="txt" value="28" />
           <entry key="xml" value="837" />
@@ -149,7 +131,7 @@
         <counts>
           <entry key="AspectJ" value="14" />
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="39954" />
+          <entry key="JAVA" value="39975" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="837" />
@@ -171,7 +153,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1381">
@@ -198,13 +180,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="357">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,8 +197,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="29" column="13" selection-start-line="29" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -340,7 +324,6 @@
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/TestngListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/SeledieDemoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/DemoBaiDu.java" />
@@ -349,6 +332,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
       </list>
     </option>
   </component>
@@ -465,15 +449,6 @@
               <item name="zd" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zd" type="462c0819:PsiDirectoryNode" />
-              <item name="extenttestng" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -492,7 +467,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555145475265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555145554920" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -794,7 +769,7 @@
       <workItem from="1555118355103" duration="1995000" />
       <workItem from="1555124593625" duration="131000" />
       <workItem from="1555124736025" duration="303000" />
-      <workItem from="1555125283053" duration="15292000" />
+      <workItem from="1555125283053" duration="15371000" />
     </task>
     <task id="LOCAL-00001" summary="Allure">
       <created>1555126349245</created>
@@ -978,7 +953,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555144682126</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Allure报错自动截图">
+      <created>1555145482975</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1555145482975</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1014,7 +996,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1017897000" />
+    <option name="totallyTimeSpent" value="1017976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1371,16 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/TestngListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -1443,16 +1415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1464,6 +1426,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1381">
           <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="29" column="13" selection-start-line="29" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
