@@ -2,7 +2,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!--thread-count="1"表示并发个数-->
-<suite verbose="0" name="经营管理平台" parallel="tests" thread-count="2">
+<suite verbose="0" name="经营管理平台" parallel="tests" thread-count="1">
     <parameter name="browser" value="Chrome"/>
     <parameter name="nodeUrl" value="http://183.134.216.111:18011/basicComponents/login.html" />
     <test name="采购管理系统" preserve-order="false" >
