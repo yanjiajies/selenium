@@ -41,13 +41,12 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
 //        if (browser.equals("Chrome")) driver = common.openChrome();
 //        else if (browser.equals("FireFox")) driver = common.openFireFox();
 //        else System.out.println("browser参数有误，只支持Chrome和FireFox");
-        driver=common.getDriver(browser);
+        TestFailListener.driver=common.getDriver(browser);
         driver.get(nodeUrl);
         loginOP = new LoginOP(driver);
         homeOP = new HomeOP(driver);
         pcpo = new PurchaseContactPO(driver);
         soop = new SignOutOP(driver);
-        TestFailListener.driver=driver;
     }
 
     /**
