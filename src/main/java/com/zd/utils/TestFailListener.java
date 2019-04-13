@@ -10,8 +10,6 @@ import org.testng.IHookable;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-import java.io.File;
-import java.io.IOException;
 
 
                 public class TestFailListener extends TestListenerAdapter {
