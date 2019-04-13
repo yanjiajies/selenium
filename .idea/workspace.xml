@@ -4,14 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Verify.java" line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="Allure报错自动截图">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_descriptions_javadoc_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_6_0.xml" beforeDir="false" />
+    <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Test_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test_Report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,7 +124,7 @@
           <entry key="aj" value="14" />
           <entry key="class" value="10" />
           <entry key="dummy" value="78" />
-          <entry key="java" value="39722" />
+          <entry key="java" value="39792" />
           <entry key="properties" value="1" />
           <entry key="txt" value="28" />
           <entry key="xml" value="835" />
@@ -136,7 +134,7 @@
         <counts>
           <entry key="AspectJ" value="14" />
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="39722" />
+          <entry key="JAVA" value="39792" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="835" />
@@ -149,11 +147,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="512">
+              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -161,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+            <state relative-caret-position="442">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="204" column="41" selection-start-line="204" selection-start-column="41" selection-end-line="204" selection-end-column="41" />
+            <state relative-caret-position="285">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -182,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
@@ -193,11 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="53">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -318,8 +316,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/res/testNG.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
+        <option value="$PROJECT_DIR$/res/testNG.xml" />
       </list>
     </option>
   </component>
@@ -463,7 +461,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555138103737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555138857334" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -504,7 +502,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RobotDeom">
+  <component name="RunManager" selected="TestNG.F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml">
     <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zd.Demo.AssertDemo" />
       <module name="TestNG" />
@@ -576,8 +574,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RobotDeom" />
         <item itemvalue="TestNG.F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" />
+        <item itemvalue="Application.RobotDeom" />
         <item itemvalue="Application.AssertDemo" />
         <item itemvalue="Application.YZMDemo" />
         <item itemvalue="Application.Demo (1)" />
@@ -764,7 +762,7 @@
       <workItem from="1555118355103" duration="1995000" />
       <workItem from="1555124593625" duration="131000" />
       <workItem from="1555124736025" duration="303000" />
-      <workItem from="1555125283053" duration="8740000" />
+      <workItem from="1555125283053" duration="9534000" />
     </task>
     <task id="LOCAL-00001" summary="Allure">
       <created>1555126349245</created>
@@ -857,31 +855,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555137669531</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Allure报错自动截图">
+      <created>1555138155962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555138155962</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PoiTest - 2018.12.24 at 18h 23m 58s.xml">
-      <configuration name="PoiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PoiTest - 2018.12.24 at 18h 24m 08s.xml">
-      <configuration name="PoiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PoiTest - 2018.12.24 at 18h 24m 21s.xml">
-      <configuration name="PoiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PoiTest - 2018.12.24 at 18h 45m 08s.xml">
-      <configuration name="PoiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HumanCapitalManage - 2019.01.07 at 16h 43m 51s.xml">
-      <configuration name="HumanCapitalManage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HumanCapitalManage - 2019.01.07 at 20h 31m 59s.xml">
-      <configuration name="HumanCapitalManage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.01.12 at 11h 05m 41s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.01.12 at 11h 06m 51s.xml">
       <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -891,9 +875,30 @@
     <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.02.12 at 16h 43m 08s.xml">
       <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 53m 32s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 55m 23s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 56m 01s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 57m 07s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 57m 48s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 58m 54s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 59m 39s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1011345000" />
+    <option name="totallyTimeSpent" value="1012139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,7 +913,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.16420911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.16420911" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1292,10 +1297,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
@@ -1306,32 +1328,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="204" column="41" selection-start-line="204" selection-start-column="41" selection-end-line="204" selection-end-column="41" />
+        <state relative-caret-position="285">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="512">
+          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
         </state>
       </provider>
     </entry>

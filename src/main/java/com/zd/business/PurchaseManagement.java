@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.awt.*;
@@ -54,9 +55,10 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
      */
     @Test(description = "Login",priority = 0)
     public void Login(){
-        loginOP.toLogin("admin", "edeming123");
-        Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
-        homeOP.menuClick("采购管理系统");
+        loginOP.toLogin("admin", "123");
+        //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
+        Assert.assertEquals("2222222222","22222222222222");
+        homeOP.menuClick("123");
     }
     //采购类型数据驱动
     @DataProvider(name = "purchaseType")

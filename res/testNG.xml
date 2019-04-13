@@ -2,21 +2,21 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!--thread-count="1"表示并发个数-->
-<suite verbose="0" name="经营管理平台" parallel="tests" thread-count="1">
+<suite verbose="0" name="经营管理平台" parallel="tests" thread-count="2">
     <parameter name="browser" value="Chrome"/>
-    <parameter name="nodeUrl" value="http://183.134.216.111:18011/basicComponents/login.html" />
+    <parameter name="nodeUrl" value="http://183.134.216.111:18011/comprehensivePlan/main.html#developmentCost" />
     <test name="采购管理系统" preserve-order="false" >
         <classes>
             <class name="com.zd.business.PurchaseManagement">
                 <methods>
                     <include name="Login"/>
-                    <include name="reviewApproval"/>
-                    <include name="contactList"/>
-                    <include name="examine"/>
-                    <include name="purchase"/>
-                    <include name="invoice"/>
-                    <include name="addPaymentApproval"/>
-                    <include name="confirmPayment"/>
+                    <!--<include name="reviewApproval"/>-->
+                    <!--<include name="contactList"/>-->
+                    <!--<include name="examine"/>-->
+                    <!--<include name="purchase"/>-->
+                    <!--<include name="invoice"/>-->
+                    <!--<include name="addPaymentApproval"/>-->
+                    <!--<include name="confirmPayment"/>-->
                 </methods>
             </class>
         </classes>
