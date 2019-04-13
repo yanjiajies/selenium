@@ -7,8 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-import java.io.IOException;
-
 public class TestFailListener extends TestListenerAdapter {
     public static WebDriver driver;
     @Override
