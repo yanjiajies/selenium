@@ -14,23 +14,25 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class TestFailListener implements IHookable {
-        public static WebDriver driver;
+    public class TestFailListener implements IHookable {
+        public static  WebDriver driver;
         @Override
         public void run(IHookCallBack callBack, ITestResult testResult) {
+
             callBack.runTestMethod(testResult);
             if (testResult.getThrowable() != null) {
                 try {
                     takeScreenShot(testResult.getMethod().getMethodName());
-                } catch (Exception e) {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         }
 
+
         @Attachment(value = "Failure in method {0}", type = "image/png")
         private byte[] takeScreenShot(String methodName) throws IOException {
-            File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-            return Files.toByteArray(screenshot);
+
+            return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
         }
-}
+    }
