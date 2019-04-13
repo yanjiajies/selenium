@@ -121,7 +121,7 @@
           <entry key="aj" value="14" />
           <entry key="class" value="10" />
           <entry key="dummy" value="78" />
-          <entry key="java" value="39709" />
+          <entry key="java" value="39722" />
           <entry key="properties" value="1" />
           <entry key="txt" value="28" />
           <entry key="xml" value="832" />
@@ -131,7 +131,7 @@
         <counts>
           <entry key="AspectJ" value="14" />
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="39709" />
+          <entry key="JAVA" value="39722" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="832" />
@@ -156,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+            <state relative-caret-position="238">
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -331,7 +331,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="582" />
     <option name="y" value="2" />
     <option name="width" value="1430" />
@@ -449,7 +449,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555137032837" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555137463991" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -750,7 +750,7 @@
       <workItem from="1555118355103" duration="1995000" />
       <workItem from="1555124593625" duration="131000" />
       <workItem from="1555124736025" duration="303000" />
-      <workItem from="1555125283053" duration="7713000" />
+      <workItem from="1555125283053" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="Allure">
       <created>1555126349245</created>
@@ -822,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555136893032</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Allure报错自动截图">
+      <created>1555137039421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555137039421</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -858,7 +865,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1010318000" />
+    <option name="totallyTimeSpent" value="1010748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,10 +877,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="466" y="2" width="1144" height="844" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.31860036" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -888,12 +895,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3282123" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32630098" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" weight="0.36452514" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32914925" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3272727" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32587412" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32960895" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1292,8 +1299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        <state relative-caret-position="238">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

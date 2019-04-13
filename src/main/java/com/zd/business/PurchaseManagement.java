@@ -5,22 +5,15 @@ import com.zd.service.LoginOP;
 import com.zd.service.PurchaseContactPO;
 import com.zd.service.SignOutOP;
 import com.zd.utils.*;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.io.FileHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.HashMap;
@@ -62,10 +55,9 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
      */
     @Test(description = "Login",priority = 0)
     public void Login(){
-        //loginOP.toLogin("admin", "123");
-        //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
-        homeOP.menuClick("采购管理系统");
-        Assert.assertEquals("123","123");
+        loginOP.toLogin("admin", "edeming123");
+        Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
+        //homeOP.menuClick("采购管理系统");
     }
     //采购类型数据驱动
     @DataProvider(name = "purchaseType")
