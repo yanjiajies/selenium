@@ -21,7 +21,7 @@ import java.util.HashMap;
 /**
  * 采购管理系统用例
  */
-@Listeners({TestFailListener.class})
+@Listeners({TestListener.class})
 @ContextConfiguration({"classpath*:/spring-test-config.xml"})
 public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Autowired
@@ -47,7 +47,7 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
         homeOP = new HomeOP(driver);
         pcpo = new PurchaseContactPO(driver);
         soop = new SignOutOP(driver);
-        TestFailListener.driver=driver;
+        TestListener.driver=driver;
     }
 
     /**
