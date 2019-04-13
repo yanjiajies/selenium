@@ -4,10 +4,7 @@ import com.zd.service.HomeOP;
 import com.zd.service.LoginOP;
 import com.zd.service.PurchaseContactPO;
 import com.zd.service.SignOutOP;
-import com.zd.utils.Common;
-import com.zd.utils.TestListener;
-import com.zd.utils.Utils;
-import com.zd.utils.Verify;
+import com.zd.utils.*;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -30,7 +27,7 @@ import java.util.HashMap;
 /**
  * 采购管理系统用例
  */
-@Listeners({TestListener.class})
+@Listeners({TestFailListener.class})
 @ContextConfiguration({"classpath*:/spring-test-config.xml"})
 public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Autowired
@@ -56,7 +53,7 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
         homeOP = new HomeOP(driver);
         pcpo = new PurchaseContactPO(driver);
         soop = new SignOutOP(driver);
-        TestListener.driver=driver;
+        TestFailListener.driver=driver;
     }
 
     /**
