@@ -4,12 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Verify.java" line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_3.xml" beforeDir="false" />
+    <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +89,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
           <entry key="iml" value="6" />
-          <entry key="java" value="1242" />
+          <entry key="java" value="1243" />
           <entry key="jpg" value="1" />
           <entry key="kt" value="1" />
           <entry key="log" value="22" />
@@ -111,7 +108,7 @@
           <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="6" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="1242" />
+          <entry key="JAVA" value="1243" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="Properties" value="17" />
@@ -124,7 +121,7 @@
           <entry key="aj" value="14" />
           <entry key="class" value="10" />
           <entry key="dummy" value="78" />
-          <entry key="java" value="39493" />
+          <entry key="java" value="39503" />
           <entry key="properties" value="1" />
           <entry key="xml" value="832" />
         </counts>
@@ -133,7 +130,7 @@
         <counts>
           <entry key="AspectJ" value="14" />
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="39493" />
+          <entry key="JAVA" value="39503" />
           <entry key="PLAIN_TEXT" value="78" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="832" />
@@ -156,18 +153,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4046">
+            <state relative-caret-position="272">
               <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
             </state>
           </provider>
@@ -304,10 +310,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/RobotDeom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/AssertDemo.java" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
         <option value="$PROJECT_DIR$/res/testNG.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
       </list>
     </option>
   </component>
@@ -389,6 +395,41 @@
               <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java-maven-testNG-reportNG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zd" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -407,7 +448,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555125767193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555127333098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -708,8 +749,16 @@
       <workItem from="1555118355103" duration="1995000" />
       <workItem from="1555124593625" duration="131000" />
       <workItem from="1555124736025" duration="303000" />
-      <workItem from="1555125283053" duration="976000" />
+      <workItem from="1555125283053" duration="2046000" />
     </task>
+    <task id="LOCAL-00001" summary="Allure">
+      <created>1555126349245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555126349245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -745,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1003581000" />
+    <option name="totallyTimeSpent" value="1004651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,6 +807,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -809,6 +859,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1071,13 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/RobotDeom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1134,20 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/testNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-test-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1164,8 +1197,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4046">
+        <state relative-caret-position="272">
           <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
         </state>
       </provider>
     </entry>
