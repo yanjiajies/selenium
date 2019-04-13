@@ -14,25 +14,17 @@ import java.io.File;
 import java.io.IOException;
 
 
-    public class TestFailListener implements IHookable {
-        public static  WebDriver driver;
-        @Override
-        public void run(IHookCallBack callBack, ITestResult testResult) {
+        public class TestFailListener extends TestListenerAdapter  {
+            public static WebDriver driver;
+            public void onTestFailure(ITestResult tr) {
+                super.onTestFailure(tr);
+                takePhoto(driver);
+            }
 
-            callBack.runTestMethod(testResult);
-            if (testResult.getThrowable() != null) {
-                try {
-                    takeScreenShot(testResult.getMethod().getMethodName());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+
+            @Attachment(value = "失败截图如下：",type = "image/png")
+            public byte[]  takePhoto(WebDriver driver){
+                byte[] screenshotAs = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+                return screenshotAs;
             }
         }
-
-
-        @Attachment(value = "Failure in method {0}", type = "image/png")
-        private byte[] takeScreenShot(String methodName) throws IOException {
-
-            return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-        }
-    }
