@@ -53,21 +53,21 @@
 		</dependency>
 
 		<!-- extentreports报告-->
-		<dependency>
-			<groupId>com.relevantcodes</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>2.41.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.vimalselvam</groupId>
-			<artifactId>testng-extentsreport</artifactId>
-			<version>1.2.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>3.1.5</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.relevantcodes</groupId>-->
+			<!--<artifactId>extentreports</artifactId>-->
+			<!--<version>2.41.1</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.vimalselvam</groupId>-->
+			<!--<artifactId>testng-extentsreport</artifactId>-->
+			<!--<version>1.2.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.aventstack</groupId>-->
+			<!--<artifactId>extentreports</artifactId>-->
+			<!--<version>3.1.5</version>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -254,55 +254,55 @@
 			</plugin>
 
        	   <!-- 添加插件 关联testNg.xml  ，surefire插件其实就是一个容器-->
-           <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.17</version>
-                <configuration>
-                <!-- 有疑问 ，加上这段代码就没有多余的report文件了-->
-                <!-- 添加插件,添加ReportNg的监听器，生成TestNg的报告 -->
-                	 <!--<properties>-->
-                        <!--<property>-->
-                            <!--<name>usedefaultlisteners</name>-->
-                            <!--<value>false</value>-->
-                        <!--</property>-->
-                        <!--<property>-->
-                            <!--<name>listener</name>-->
-                            <!--<value>org.uncommons.reportng.HTMLReporter</value>-->
-                        <!--</property>-->
-                    <!--</properties>-->
-                    <suiteXmlFiles>
-                        <suiteXmlFile>res/testNG.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-					<!--定义Testng输入输出文档的对应目录-->
-					<!--<workingDirectory>res/</workingDirectory>-->
-					<forkMode>once</forkMode>
-					<argLine>-Dfile.encoding=UTF-8</argLine>
-					<testFailureIgnore>true</testFailureIgnore>
-                </configuration>
-            </plugin>
+           <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                <!--<version>2.17</version>-->
+                <!--<configuration>-->
+                <!--&lt;!&ndash; 有疑问 ，加上这段代码就没有多余的report文件了&ndash;&gt;-->
+                <!--&lt;!&ndash; 添加插件,添加ReportNg的监听器，生成TestNg的报告 &ndash;&gt;-->
+                	 <!--&lt;!&ndash;<properties>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<property>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<name>usedefaultlisteners</name>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<value>false</value>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</property>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<property>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<name>listener</name>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<value>org.uncommons.reportng.HTMLReporter</value>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</property>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</properties>&ndash;&gt;-->
+                    <!--<suiteXmlFiles>-->
+                        <!--<suiteXmlFile>res/testNG.xml</suiteXmlFile>-->
+                    <!--</suiteXmlFiles>-->
+					<!--&lt;!&ndash;定义Testng输入输出文档的对应目录&ndash;&gt;-->
+					<!--&lt;!&ndash;<workingDirectory>res/</workingDirectory>&ndash;&gt;-->
+					<!--<forkMode>once</forkMode>-->
+					<!--<argLine>-Dfile.encoding=UTF-8</argLine>-->
+					<!--<testFailureIgnore>true</testFailureIgnore>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
 			<!--配置-->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.1.1</version>
-				<executions>
-					<execution>
-						<phase>test</phase>
-						<goals>
-							<goal>java</goal>
-						</goals>
-						<configuration>
-							<includePluginDependencies>true</includePluginDependencies>
-							<mainClass>com.zd.mail.MailDemo</mainClass>
-							<arguments>
-								<argument>11</argument>
-								<argument>22</argument>
-							</arguments>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+			<!--<plugin>-->
+				<!--<groupId>org.codehaus.mojo</groupId>-->
+				<!--<artifactId>exec-maven-plugin</artifactId>-->
+				<!--<version>1.1.1</version>-->
+				<!--<executions>-->
+					<!--<execution>-->
+						<!--<phase>test</phase>-->
+						<!--<goals>-->
+							<!--<goal>java</goal>-->
+						<!--</goals>-->
+						<!--<configuration>-->
+							<!--<includePluginDependencies>true</includePluginDependencies>-->
+							<!--<mainClass>com.zd.mail.MailDemo</mainClass>-->
+							<!--<arguments>-->
+								<!--<argument>11</argument>-->
+								<!--<argument>22</argument>-->
+							<!--</arguments>-->
+						<!--</configuration>-->
+					<!--</execution>-->
+				<!--</executions>-->
+			<!--</plugin>-->
 
 
  <!--
