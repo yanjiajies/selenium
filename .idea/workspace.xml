@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +121,7 @@
           <entry key="aj" value="14" />
           <entry key="class" value="10" />
           <entry key="dummy" value="78" />
-          <entry key="java" value="39932" />
+          <entry key="java" value="39951" />
           <entry key="properties" value="1" />
           <entry key="txt" value="28" />
           <entry key="xml" value="835" />
@@ -131,7 +131,7 @@
         <counts>
           <entry key="AspectJ" value="14" />
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="39932" />
+          <entry key="JAVA" value="39951" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="835" />
@@ -153,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="357">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,10 +165,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="391">
               <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -293,8 +293,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/res/testNG.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
       </list>
     </option>
   </component>
@@ -447,7 +447,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555143374436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555143782942" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -748,7 +748,7 @@
       <workItem from="1555118355103" duration="1995000" />
       <workItem from="1555124593625" duration="131000" />
       <workItem from="1555124736025" duration="303000" />
-      <workItem from="1555125283053" duration="13195000" />
+      <workItem from="1555125283053" duration="13603000" />
     </task>
     <task id="LOCAL-00001" summary="Allure">
       <created>1555126349245</created>
@@ -904,7 +904,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555143165382</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Allure报错自动截图">
+      <created>1555143385264</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555143385264</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -940,7 +947,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1015800000" />
+    <option name="totallyTimeSpent" value="1016208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1360,20 +1367,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
