@@ -7,9 +7,10 @@
     <parameter name="nodeUrl" value="http://183.134.216.111:18011/comprehensivePlan/main.html#developmentCost" />
     <test name="采购管理系统" preserve-order="false" >
         <classes>
-            <class name="com.zd.business.PurchaseManagement">
+            <class name="com.zd.Demo.SeledieDemoTest">
                 <methods>
-                    <include name="Login"/>
+                    <include name="baiduSearchTest"/>
+                    <include name="sougouSearchTest"/>
                     <!--<include name="reviewApproval"/>-->
                     <!--<include name="contactList"/>-->
                     <!--<include name="examine"/>-->
@@ -41,7 +42,7 @@
         <!--</classes>-->
     <!--</test>-->
 
-    <listeners>
-        <listener class-name="com.zd.utils.TestFailListener"/>
-    </listeners>
+    <!--<listeners>-->
+        <!--<listener class-name="com.zd.utils.TestFailListener"/>-->
+    <!--</listeners>-->
 </suite> 
