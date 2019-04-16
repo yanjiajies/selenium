@@ -21,7 +21,7 @@ import java.util.HashMap;
 /**
  * 采购管理系统用例
  */
-@Listeners({TestFailListener.class})
+@Listeners
 @ContextConfiguration({"classpath*:/spring-test-config.xml"})
 public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Autowired
@@ -55,10 +55,9 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
      */
     @Test(description = "Login",priority = 0)
     public void Login(){
-        loginOP.toLogin("admin", "123");
+        loginOP.toLogin("admin", "edeming123");
         //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
-        Assert.assertEquals("2222222222","22222222222222");
-        homeOP.menuClick("123");
+        homeOP.menuClick("采购管理系统");
     }
     //采购类型数据驱动
     @DataProvider(name = "purchaseType")
