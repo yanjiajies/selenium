@@ -10,13 +10,13 @@
             <class name="com.zd.business.PurchaseManagement">
                 <methods>
                     <include name="Login"/>
-                    <include name="reviewApproval"/>
-                    <include name="contactList"/>
-                    <include name="examine"/>
-                    <include name="purchase"/>
-                    <include name="invoice"/>
-                    <include name="addPaymentApproval"/>
-                    <include name="confirmPayment"/>
+                    <!--<include name="reviewApproval"/>-->
+                    <!--<include name="contactList"/>-->
+                    <!--<include name="examine"/>-->
+                    <!--<include name="purchase"/>-->
+                    <!--<include name="invoice"/>-->
+                    <!--<include name="addPaymentApproval"/>-->
+                    <!--<include name="confirmPayment"/>-->
                 </methods>
             </class>
         </classes>
