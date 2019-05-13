@@ -62,11 +62,11 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
      */
 
     @Test(description = "登录",priority = 0)
-    @Issue("AG-2759823")
-    @TestCaseId("AG-450234")
-    @Stories("DAG图所有算子的运行测试")
-    @Title("冒烟测试_所有算子运行_正常测试")
-    @Description("测试一个流程，用作回归冒烟测试")
+    @Issue("AG-2759823")// 跟测试用例相关的bug Id（这是一个链接，可以配置bug管理系统的URL，直接跳转到bug管理系统中）
+    @TestCaseId("AG-450234")//测试用例的id（这是一个连接，可以配置用例管理系统的URL，直接跳转到用例管理系统中）
+    @Stories("DAG图所有算子的运行测试")//属于feature之下的结构，说明此用例是某个feature中的某个story下的用例
+    @Title("正常登录")//测试用例的标题
+    @Description("验证系统是否能正常登录")//测试用例的描述
     public void Login(){
         loginOP.toLogin("admin1", "22222");
         //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
