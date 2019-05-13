@@ -5,6 +5,9 @@ import com.zd.service.LoginOP;
 import com.zd.service.PurchaseContactPO;
 import com.zd.service.SignOutOP;
 import com.zd.utils.*;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Issue;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +15,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
+import ru.yandex.qatools.allure.annotations.TestCaseId;
+import ru.yandex.qatools.allure.annotations.Title;
 
 import java.awt.*;
 import java.io.IOException;
@@ -53,7 +60,13 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     /**
      * 登录
      */
-    @Test(description = "Login",priority = 0)
+
+    @Test(description = "登录",priority = 0)
+    @Issue("AG-2759823")
+    @TestCaseId("AG-450234")
+    @Stories("DAG图所有算子的运行测试")
+    @Title("冒烟测试_所有算子运行_正常测试")
+    @Description("测试一个流程，用作回归冒烟测试")
     public void Login(){
         loginOP.toLogin("admin", "123123");
         //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
