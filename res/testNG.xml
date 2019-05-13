@@ -7,9 +7,9 @@
     <parameter name="nodeUrl" value="http://183.134.216.111:18011/basicComponents/login.html"/>
     <test name="采购管理系统" preserve-order="false" >
         <classes>
-            <class name="com.zd.business.PurchaseManagement">
+            <class name="com.zd.business.HumanCapitalManage">
                 <methods>
-                    <include name="Login2"/>
+                    <include name="Login"/>
                     <!--<include name="reviewApproval"/>-->
                     <!--<include name="contactList"/>-->
                     <!--<include name="examine"/>-->
