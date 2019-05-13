@@ -28,9 +28,12 @@ import java.util.HashMap;
  * 采购管理系统用例
  */
 @Listeners({TestFailListener.class})
-public class PurchaseManagement {
-    Common common=new Common();
-    Utils utils =new Utils();
+@ContextConfiguration({"classpath*:/spring-test-config.xml"})
+public class PurchaseManagement extends AbstractTestNGSpringContextTests {
+    @Autowired
+    Common common;
+    @Autowired
+    Utils utils;
     private WebDriver driver;
     LoginOP loginOP;
     HomeOP homeOP;
