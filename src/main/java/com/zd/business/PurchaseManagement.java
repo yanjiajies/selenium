@@ -6,16 +6,13 @@ import com.zd.service.PurchaseContactPO;
 import com.zd.service.SignOutOP;
 import com.zd.utils.*;
 import io.qameta.allure.Description;
-import io.qameta.allure.Feature;
 import io.qameta.allure.Issue;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
-import org.testng.Assert;
 import org.testng.annotations.*;
-import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.TestCaseId;
 import ru.yandex.qatools.allure.annotations.Title;
@@ -31,12 +28,9 @@ import java.util.HashMap;
  * 采购管理系统用例
  */
 @Listeners({TestFailListener.class})
-@ContextConfiguration({"classpath*:/spring-test-config.xml"})
-public class PurchaseManagement extends AbstractTestNGSpringContextTests {
-    @Autowired
-    Common common;
-    @Autowired
-    Utils utils;
+public class PurchaseManagement {
+    Common common=new Common();
+    Utils utils =new Utils();
     private WebDriver driver;
     LoginOP loginOP;
     HomeOP homeOP;
