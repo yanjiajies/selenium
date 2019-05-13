@@ -21,6 +21,8 @@ import ru.yandex.qatools.allure.annotations.TestCaseId;
 import ru.yandex.qatools.allure.annotations.Title;
 
 import java.awt.*;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.HashMap;
@@ -69,6 +71,17 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Description("验证系统是否能正常登录")//测试用例的描述
     public void Login(){
         loginOP.toLogin("admin1", "22222");
+        FileInputStream fis;
+        FileDemo fileDemo=new FileDemo();
+        try {
+                fis=new FileInputStream(new File("img/_0211152923.png"));
+                byte[] read=new byte[1024*1024];
+                fis.read(read);
+                fileDemo.saveScreenshot(read);
+                fis.close();
+        }catch (Exception e){
+                e.printStackTrace();
+        }
         //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
         //homeOP.menuClick("采购管理系统");
     }
