@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +33,7 @@
     <session id="-1372018607">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="167" />
+          <entry key="project.closed" value="168" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
@@ -74,6 +71,7 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.59" value="2" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
@@ -81,7 +79,7 @@
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="179" />
+          <entry key="project.opened" value="180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,7 +125,7 @@
           <entry key="java" value="40392" />
           <entry key="properties" value="1" />
           <entry key="txt" value="30" />
-          <entry key="xml" value="858" />
+          <entry key="xml" value="859" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -137,7 +135,7 @@
           <entry key="JAVA" value="40392" />
           <entry key="PLAIN_TEXT" value="108" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="858" />
+          <entry key="XML" value="859" />
         </counts>
       </usages-collector>
     </session>
@@ -147,11 +145,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="782">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,7 +170,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -186,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="258" column="41" selection-start-line="258" selection-start-column="41" selection-end-line="258" selection-end-column="41" />
+            <state relative-caret-position="220">
+              <caret line="178" column="24" lean-forward="true" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -209,8 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tessdata</find>
-      <find>selenium</find>
       <find>deptName</find>
       <find>permissionDetermine</find>
       <find>determineTree</find>
@@ -239,6 +235,8 @@
       <find>selen</find>
       <find>qameta</find>
       <find>maven-surefire-plugin</find>
+      <find>aspectj.version</find>
+      <find>settings.localRepository</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -311,8 +309,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zd/testcase/purchasemanagement/fillin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java" />
         <option value="$PROJECT_DIR$/res/testNG.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -381,6 +379,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -442,8 +442,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,7 +453,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557740183490" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557741437347" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -765,14 +763,8 @@
       <workItem from="1557486188390" duration="224000" />
       <workItem from="1557713351249" duration="1278000" />
       <workItem from="1557714683993" duration="11990000" />
-      <workItem from="1557737041955" duration="3008000" />
-    </task>
-    <task id="LOCAL-00004" summary="yuhanming">
-      <created>1555127885537</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1555127885537</updated>
+      <workItem from="1557737041955" duration="3762000" />
+      <workItem from="1557741069035" duration="365000" />
     </task>
     <task id="LOCAL-00005" summary="admin">
       <created>1555128086079</created>
@@ -1110,13 +1102,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557740002130</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Allure报错自动截图22">
+      <created>1557740190412</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1557740190412</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.01.12 at 11h 07m 09s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.02.12 at 16h 43m 08s.xml">
       <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -1144,9 +1140,12 @@
     <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.05.13 at 17h 20m 29s.xml">
       <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.05.13 at 17h 53m 33s.xml">
+      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1045773000" />
+    <option name="totallyTimeSpent" value="1046892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1161,7 +1160,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21179625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21447721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1171,7 +1170,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.23776224" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.23776224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36452514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1540,10 +1539,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/ProjectManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1554,27 +1570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="258" column="41" selection-start-line="258" selection-start-column="41" selection-end-line="258" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="178" column="24" lean-forward="true" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
         </state>
       </provider>
     </entry>
