@@ -9,7 +9,7 @@
         <classes>
             <class name="com.zd.business.PurchaseManagement">
                 <methods>
-                    <include name="Login"/>
+                    <include name="Login2"/>
                     <!--<include name="reviewApproval"/>-->
                     <!--<include name="contactList"/>-->
                     <!--<include name="examine"/>-->
