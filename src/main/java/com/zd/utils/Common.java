@@ -26,7 +26,7 @@ public class Common {
         WebDriver driver=threadDriver.get();
         if(driver==null){
             if(browserType.equals("Chrome")){
-                System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
                 //Headless Chrome无GUI模式（无页面的UI自动化）
                 //ChromeOptions chromeOptions = new ChromeOptions();
                 //设置chrome为headless模式
