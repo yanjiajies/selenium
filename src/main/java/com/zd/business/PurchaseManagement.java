@@ -68,7 +68,7 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Title("冒烟测试_所有算子运行_正常测试")
     @Description("测试一个流程，用作回归冒烟测试")
     public void Login(){
-        loginOP.toLogin("admin", "123123");
+        loginOP.toLogin("admin1", "22222");
         //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
         //homeOP.menuClick("采购管理系统");
     }
