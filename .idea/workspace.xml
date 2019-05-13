@@ -4,8 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Verify.java" line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
+    <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="Allure报错自动截图22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -186,8 +187,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="247" column="59" selection-start-line="247" selection-start-column="59" selection-end-line="247" selection-end-column="59" />
+            <state relative-caret-position="220">
+              <caret line="253" column="55" lean-forward="true" selection-start-line="253" selection-start-column="55" selection-end-line="253" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -206,7 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>deptName</find>
       <find>permissionDetermine</find>
       <find>determineTree</find>
       <find>determine</find>
@@ -236,6 +236,7 @@
       <find>maven-surefire-plugin</find>
       <find>aspectj.version</find>
       <find>settings.localRepository</find>
+      <find>allure-testng</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -452,7 +453,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557744242106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557744420912" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -763,14 +764,7 @@
       <workItem from="1557713351249" duration="1278000" />
       <workItem from="1557714683993" duration="11990000" />
       <workItem from="1557737041955" duration="3762000" />
-      <workItem from="1557741069035" duration="2084000" />
-    </task>
-    <task id="LOCAL-00006" summary="admin">
-      <created>1555128294229</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1555128294229</updated>
+      <workItem from="1557741069035" duration="2929000" />
     </task>
     <task id="LOCAL-00007" summary="Allure报错自动截图">
       <created>1555136040546</created>
@@ -1108,7 +1102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557741454064</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Allure报错自动截图22">
+      <created>1557744251266</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1557744251267</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1144,7 +1145,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1048611000" />
+    <option name="totallyTimeSpent" value="1049456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1156,7 +1157,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.21447721" />
@@ -1571,8 +1572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="247" column="59" selection-start-line="247" selection-start-column="59" selection-end-line="247" selection-end-column="59" />
+        <state relative-caret-position="220">
+          <caret line="253" column="55" lean-forward="true" selection-start-line="253" selection-start-column="55" selection-end-line="253" selection-end-column="55" />
         </state>
       </provider>
     </entry>
