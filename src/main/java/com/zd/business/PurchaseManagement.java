@@ -70,7 +70,7 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Title("正常登录")//测试用例的标题
     @Description("验证系统是否能正常登录")//测试用例的描述
     public void Login(){
-        loginOP.toLogin("admin1", "22222");
+        //loginOP.toLogin("admin1", "22222");
         FileInputStream fis;
         FileDemo fileDemo=new FileDemo();
         try {
