@@ -217,19 +217,6 @@
 			<version>RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
-
-
-		<dependency>
-			<groupId>ru.yandex.qatools.allure</groupId>
-			<artifactId>allure-testng-adaptor</artifactId>
-			<version>1.5.4</version>
-			<exclusions>
-				<exclusion>
-					<groupId>junit</groupId>
-					<artifactId>junit</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
 	</dependencies>
 
 
@@ -248,7 +235,7 @@
 					</argLine>
 					<systemPropertyVariables>
 						<!--是否忽略html，解释见下图。与之后在reportNg报告上显示截图相关。当前已经使用allure了，这里可以直接去掉啦-->
-						<org.uncommons.reportng.escape-output>true</org.uncommons.reportng.escape-output>
+						<org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
 					</systemPropertyVariables>
 					<!--测试失败后，是否忽略并继续测试-->
 					<testFailureIgnore>true</testFailureIgnore>
@@ -342,6 +329,7 @@ testNG中有这样一个类：Reporter，就是专门做这个工作的。
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
