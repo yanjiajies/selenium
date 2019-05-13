@@ -239,7 +239,9 @@
 					 <suiteXmlFiles>
 						 <suiteXmlFile>res/testNG.xml</suiteXmlFile>
 					 </suiteXmlFiles>
-
+					 <workingDirectory>target/</workingDirectory>
+					 <forkMode>once</forkMode>
+					 <argLine>-Dfile.encoding=UTF-8</argLine>
 					 <properties>
 						 <property>
 							 <name>usedefaultlisteners</name>
