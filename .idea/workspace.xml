@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,7 +124,7 @@
           <entry key="java" value="40131" />
           <entry key="properties" value="1" />
           <entry key="txt" value="28" />
-          <entry key="xml" value="840" />
+          <entry key="xml" value="845" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -134,7 +134,7 @@
           <entry key="JAVA" value="40131" />
           <entry key="PLAIN_TEXT" value="106" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="840" />
+          <entry key="XML" value="845" />
         </counts>
       </usages-collector>
     </session>
@@ -165,7 +165,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
@@ -177,11 +177,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+            <state relative-caret-position="415">
+              <caret line="253" column="63" lean-forward="true" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -302,8 +302,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" />
         <option value="$PROJECT_DIR$/res/testNG.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -442,7 +442,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557728650034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557730753261" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -751,7 +751,7 @@
       <workItem from="1556587572905" duration="3180000" />
       <workItem from="1557486188390" duration="224000" />
       <workItem from="1557713351249" duration="1278000" />
-      <workItem from="1557714683993" duration="5465000" />
+      <workItem from="1557714683993" duration="6164000" />
     </task>
     <task id="LOCAL-00001" summary="Allure">
       <created>1555126349245</created>
@@ -991,7 +991,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557717786107</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Allure报错自动截图">
+      <created>1557729943829</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1557729943829</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1027,7 +1034,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1036240000" />
+    <option name="totallyTimeSpent" value="1036939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1410,13 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1434,6 +1434,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="253" column="63" lean-forward="true" selection-start-line="253" selection-start-column="63" selection-end-line="253" selection-end-column="63" />
         </state>
       </provider>
     </entry>
