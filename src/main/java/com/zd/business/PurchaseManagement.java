@@ -68,19 +68,19 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Description("验证系统是否能正常登录")//测试用例的描述
     public void Login(){
         loginOP.toLogin("admin1", "22222");
-//        FileInputStream fis;
-//        FileDemo fileDemo=new FileDemo();
-//        try {
-//            File file=new File("img/_0211152923.png");
-//                System.out.println(file.toPath());
-//                fis=new FileInputStream(file);
-//                byte[] read=new byte[1024*1024];
-//                fis.read(read);
-//                fileDemo.saveScreenshot(read);
-//                fis.close();
-//        }catch (Exception e){
-//                e.printStackTrace();
-//        }
+        FileInputStream fis;
+        FileDemo fileDemo=new FileDemo();
+        try {
+            File file=new File("img/_0211152923.png");
+                System.out.println(file.toPath());
+                fis=new FileInputStream(file);
+                byte[] read=new byte[1024*1024];
+                fis.read(read);
+                fileDemo.saveScreenshot(read);
+                fis.close();
+        }catch (Exception e){
+                e.printStackTrace();
+        }
         //Verify.assertEquals(driver.getTitle(), "首页", "登录校验失败");
         //homeOP.menuClick("采购管理系统");
     }
