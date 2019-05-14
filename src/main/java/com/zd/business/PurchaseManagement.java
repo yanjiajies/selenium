@@ -28,7 +28,7 @@ import java.util.HashMap;
 /**
  * 采购管理系统用例
  */
-@Listeners()
+@Listeners({TestFailListenerNew.class})
 @ContextConfiguration({"classpath*:/spring-test-config.xml"})
 public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Autowired
@@ -54,13 +54,13 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
         homeOP = new HomeOP(driver);
         pcpo = new PurchaseContactPO(driver);
         soop = new SignOutOP(driver);
-        TestFailListener.driver=driver;
+        TestFailListenerNew.driver=driver;
     }
 
     /**
      * 登录
      */
-    @Test(description = "登录",priority = 0)
+    //@Test(description = "登录",priority = 0)
     @Issue("AG-27598231")// 跟测试用例相关的bug Id（这是一个链接，可以配置bug管理系统的URL，直接跳转到bug管理系统中）
     @TestCaseId("AG-450234")//测试用例的id（这是一个连接，可以配置用例管理系统的URL，直接跳转到用例管理系统中）
     @Stories("DAG图所有算子的运行测试")//属于feature之下的结构，说明此用例是某个feature中的某个story下的用例
@@ -68,7 +68,7 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Description("验证系统是否能正常登录")//测试用例的描述
     public void Login(){
         loginOP.toLogin("admin1", "123456");
-        Assert.assertEquals("111","222");
+        //Assert.assertEquals("111","222");
         FileInputStream fis;
         FileDemo fileDemo=new FileDemo();
         try {

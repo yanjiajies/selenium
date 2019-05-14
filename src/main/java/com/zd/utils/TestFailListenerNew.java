@@ -10,7 +10,7 @@ import org.testng.TestListenerAdapter;
 
 import java.io.IOException;
 
-class TestFileListenerNew extends TestListenerAdapter {
+public class TestFailListenerNew extends TestListenerAdapter {
     public static WebDriver driver;
 
     //重写父类onTestFailure方法，通过监听器，每次失败的时候调用该方法

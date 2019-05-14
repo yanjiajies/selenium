@@ -43,6 +43,6 @@
     <!--</test>-->
 
     <listeners>
-        <listener class-name="com.zd.utils.TestFailListener"/>
+        <listener class-name="com.zd.utils.TestFailListenerNew"/>
     </listeners>
 </suite> 
