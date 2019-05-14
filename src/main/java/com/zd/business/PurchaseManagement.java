@@ -7,12 +7,12 @@ import com.zd.service.SignOutOP;
 import com.zd.utils.*;
 import io.qameta.allure.Description;
 import io.qameta.allure.Issue;
-import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.TestCaseId;
@@ -28,7 +28,7 @@ import java.util.HashMap;
 /**
  * 采购管理系统用例
  */
-@Listeners({TestFailListener.class})
+@Listeners()
 @ContextConfiguration({"classpath*:/spring-test-config.xml"})
 public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Autowired
@@ -64,15 +64,15 @@ public class PurchaseManagement extends AbstractTestNGSpringContextTests {
     @Issue("AG-27598231")// 跟测试用例相关的bug Id（这是一个链接，可以配置bug管理系统的URL，直接跳转到bug管理系统中）
     @TestCaseId("AG-450234")//测试用例的id（这是一个连接，可以配置用例管理系统的URL，直接跳转到用例管理系统中）
     @Stories("DAG图所有算子的运行测试")//属于feature之下的结构，说明此用例是某个feature中的某个story下的用例
-    @Title("正常登录？？？？？？？")//测试用例的标题
+    @Title("正常登录2222222")//测试用例的标题
     @Description("验证系统是否能正常登录")//测试用例的描述
     public void Login(){
         loginOP.toLogin("admin1", "123456");
-
+        Assert.assertEquals("111","222");
         FileInputStream fis;
         FileDemo fileDemo=new FileDemo();
         try {
-            File file=new File("img/_0211152923.png");
+            File file=new File("F:\\seleniumHuayun\\img\\_0211152923.png");
                 fis=new FileInputStream(file);
                 byte[] read=new byte[1024*1024];
                 fis.read(read);
