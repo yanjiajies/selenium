@@ -206,7 +206,7 @@
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-testng</artifactId>
-			<version>2.10.0</version>
+			<version>2.11.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -217,8 +217,7 @@
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-java-commons</artifactId>
-			<version>RELEASE</version>
-			<scope>compile</scope>
+			<version>2.10.0</version>
 		</dependency>
 		<dependency>
 			<groupId>ru.yandex.qatools.allure</groupId>
@@ -241,7 +240,7 @@
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
 					<suiteXmlFiles>
-						<suiteXmlFile>res/testNG.xml</suiteXmlFile>
+						<suiteXmlFile>testng/testNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<properties>
@@ -252,6 +251,14 @@
 					</properties>
 					<!-- 使allure-results在target文件夹下（很重要） -->
 					<!--<workingDirectory>target/</workingDirectory>-->
+					<!--乱码问题-->
+					<!--<forkMode>once</forkMode>
+					<argLine>-Dfile.encoding=UTF-8</argLine>-->
+					<!--测试失败后，是否忽略并继续测试-->
+					<testFailureIgnore>true</testFailureIgnore>
+					<!--<argLine>-->
+					<!-- -Dfile.encoding=UTF-8-->
+				<!--</argLine>-->
 				</configuration>
 				<dependencies>
 					<dependency>

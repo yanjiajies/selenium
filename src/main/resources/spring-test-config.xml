@@ -20,5 +20,5 @@
    这个expression指的是自己写的类，意思排除哪些类
     expression="imooc_spring.test.anotation.TestObj"
    -->
-    <context:component-scan base-package="com.zd"/>
+    <context:component-scan base-package="com.hy"/>
 </beans>

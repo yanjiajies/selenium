@@ -2,11 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e59a09-fe1f-4178-b5e6-da7cca553383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hy/excel/ExcelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hy/excel/ExcelDemoex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/PurchaseSheetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_11_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/utils/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListenerNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListenerNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoit/uploadFile.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/uploadFile.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Appium/AppiumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Appium/AppiumDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Appium/AppiumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Appium/AppCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Appium/LoginCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Appium/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Appium/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/AssertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/AssertDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/PoiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/PoiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/PoiUtile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/PoiUtile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/RobotDeom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/RobotDeom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/Demo/YZMDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/Demo/YZMDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/business/HumanCapitalManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/ProjectManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/business/ProjectManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/business/PurchaseManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/extenttestng/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/extenttestng/ExtentTestNGIReporterListenerOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/mail/MailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/mail/MailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/mail/MailTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/HumanCapital/HumanCapitalMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/HumanCapital/HumanCapitalMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/HumanCapital/PersonnelInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/HumanCapital/PersonnelInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Marketing/PotentialProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Marketing/PotentialProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Project/ProjectApplicationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Project/ProjectApplicationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Project/ProjectBudgetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Project/ProjectBudgetPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Project/ProjectMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Project/ProjectMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Project/SetUpProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Project/SetUpProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/AddPaymentApprovalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/AddPaymentApprovalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/AddProcurementContractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/AddProcurementContractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/ApprovalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ApprovalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/ExaminationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/HumanFillPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/HumanFillPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/InvoiceEntryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/InvoiceEntryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/MaterialFillPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/MaterialFillPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PaymentApprovalSheetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PaymentApprovalSheetPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/ProcureReviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ProcureReviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/ProcurementContractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ProcurementContractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchaseContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchaseMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchaseNumberPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseNumberPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchasingDemandPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchasingDemandPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/RecordPaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/RecordPaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/ServiceFillPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ServiceFillPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/TicketRecordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/TicketRecordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/service/HomeOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/HomeOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/service/LoginOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/LoginOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/service/ProjectOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/ProjectOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/service/PurchaseContactPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/PurchaseContactPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/service/SignOutOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/service/SignOutOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/ElementOpration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/RootCase_BidPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/RootCase_Purchase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/RootCase_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/RootCase_User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/purchasemanagement/fillin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/pricemanagement/ModifyBidPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/subsidymanagement/usermanagement/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/ModifyingInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/subsidymanagement/usermanagement/ModifyingInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/Quit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/SelectName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/test/ReadUtile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/test/ReadUtile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/test/logintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/test/logintest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/test/wytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/test/wytest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/testcase/utils/IdentifyCodeUtile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/testcase/utils/IdentifyCodeUtile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/AllureUploadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/ListenerVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/ListenerVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/MyEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/MyEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListenerNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/AllureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/ExtentListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListenerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zd/utils/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hy/utils/Verify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-11-24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-11-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-11-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-11-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-11-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-12-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2018-12-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2019-01-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logs/debug.log_2019-01-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-test-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-test-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Test_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Test_Report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,35 +240,67 @@
     <session id="1023913790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="54" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.33" value="3" />
+          <entry key="project.open.time.34" value="3" />
+          <entry key="project.open.time.35" value="4" />
+          <entry key="project.open.time.36" value="6" />
+          <entry key="project.open.time.37" value="6" />
+          <entry key="project.open.time.38" value="4" />
+          <entry key="project.open.time.39" value="3" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="4" />
+          <entry key="project.open.time.45" value="3" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.opened" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="21" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="213" />
+          <entry key="properties" value="12" />
+          <entry key="py" value="1" />
+          <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="21" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="213" />
+          <entry key="Properties" value="12" />
+          <entry key="Python" value="1" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="132" />
-          <entry key="xml" value="9" />
+          <entry key="dummy" value="51" />
+          <entry key="java" value="5130" />
+          <entry key="properties" value="32" />
+          <entry key="xml" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="132" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="5130" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Properties" value="32" />
+          <entry key="XML" value="86" />
         </counts>
       </usages-collector>
     </session>
@@ -179,74 +309,75 @@
     <favorites_list name="TestNG" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4233">
-              <caret line="249" column="48" selection-start-line="249" selection-start-column="48" selection-end-line="249" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Common.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/FileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/testNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.40336135">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/PurchaseSheetPage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ApprovalPage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#595#596#0" expanded="true" />
+                    <element signature="e#624#625#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/business/PurchaseManagement.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/HomeOP.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#313#314#0" expanded="true" />
+                    <element signature="e#356#357#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/HomePage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -254,25 +385,13 @@
         <option value="Interface" />
         <option value="Aspect" />
         <option value="Kotlin File" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring</find>
-      <find>selectRadio</find>
-      <find>移入</find>
-      <find>zip</find>
-      <find>HSSFWorkbook</find>
-      <find>Driver</find>
-      <find>extentreports</find>
-      <find>sele</find>
-      <find>selectRadios</find>
-      <find>selectDemand</find>
-      <find>projectSelect</find>
-      <find>index</find>
-      <find>onFinish</find>
       <find>org.codehaus.mojo&lt;</find>
       <find>socketFactory</find>
       <find>SSLSocketFactory</find>
@@ -281,8 +400,6 @@
       <find>ext</find>
       <find>allure-testng-adaptor</find>
       <find>selen</find>
-      <find>qameta</find>
-      <find>maven-surefire-plugin</find>
       <find>aspectj.version</find>
       <find>settings.localRepository</find>
       <find>allure-testng</find>
@@ -290,6 +407,21 @@
       <find>aspectj</find>
       <find>qatools</find>
       <find>allure-maven-plugin</find>
+      <find>io.qameta.allure</find>
+      <find>Login</find>
+      <find>maven-surefire-plugin</find>
+      <find>for</find>
+      <find>项目进度确认单.pdf</find>
+      <find>Logger</find>
+      <find>boot</find>
+      <find>qameta</find>
+      <find>--</find>
+      <find>getAttribute</find>
+      <find>testData</find>
+      <find>getWorkbook</find>
+      <find>excelup</find>
+      <find>if</find>
+      <find>/html/body/div[23]/div/div[2]/div/div/form/div/div[10]/div/div/div/div[2]/ul[2]/li[1]</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -313,57 +445,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Appium/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Appium/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Appium/AppiumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/MaterialFillPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchaseMainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchaseContactPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/PurchasingDemandPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/service/PurchaseContactPO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/AddProcurementContractPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/InvoiceEntryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/ServiceFillPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/MailDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/MailTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListenerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/PoiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/PoiUtile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/mail/MailTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/MyEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/HumanCapital/PersonnelInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/HumanCapital/HumanCapitalMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/testcase/RootCase_User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/testcase/RootCase_Purchase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/ProjectManagement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/DemoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/YZMDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/RobotDeom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/AssertDemo.java" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/TestngListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/SeledieDemoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/DemoBaiDu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/Demo/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/FileDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/testcase/purchasemanagement/fillin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/Common.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListenerNew.java" />
         <option value="$PROJECT_DIR$/res/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/AddProcurementContractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/ExtentListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListenerNew.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/AllureListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/utils/AllureUploadFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/mail/MailDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zd/testcase/RootCase_Purchase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/testcase/subsidymanagement/usermanagement/ModifyingInformation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/LoginOP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Verify.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/environment.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/testNG.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/Appium/AppiumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/Appium/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/Appium/AppCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Demo.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/extenttestng/ExtentTestNGIReporterListenerOld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/addPurchaseSheet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseContactPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/addPurchaseSheetPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/AddPurchaseSheetPage.java" />
+        <option value="$PROJECT_DIR$/testng/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/Demo/ccc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/Demo/ReadExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/excel/ReadExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/Demo/DemoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/excel/excelDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/excel/ExcelDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/excel/ExcelDemoex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/AddPaymentApprovalPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ServiceFillPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/HumanFillPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/AddProcurementContractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/MaterialFillPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/testcase/utils/IdentifyCodeUtile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchasingDemandPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PaymentApprovalSheetPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/PurchaseSheetPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseMainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/service/PurchaseContactPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ApprovalPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hy/business/PurchaseManagement.java" />
       </list>
     </option>
   </component>
@@ -432,9 +564,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -445,11 +576,6 @@
             <path>
               <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumHuayun" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumHuayun" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -471,7 +597,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zd" type="462c0819:PsiDirectoryNode" />
+              <item name="hy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
@@ -479,7 +605,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zd" type="462c0819:PsiDirectoryNode" />
+              <item name="hy" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -488,13 +614,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zd" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="hy" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumHuayun" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hy" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="Purchase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumHuayun" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,7 +648,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557820467100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575712825807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -514,26 +656,27 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\resources\mapper" />
-      <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\resources" />
-      <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\java" />
-      <recent name="F:\selenium-java-maven-testNG-reportNG-master\res" />
-      <recent name="F:\selenium-java-maven-testNG-reportNG-master" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zd.business" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\selenium-java-maven-testNG-reportNG-master\Autoit" />
       <recent name="F:\selenium-java-maven-testNG-reportNG-master\driver" />
       <recent name="F:\selenium-java-maven-testNG-reportNG-master\Test1" />
       <recent name="F:\selenium-java-maven-testNG-reportNG-master" />
       <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hy.excel" />
+      <recent name="com.zd.business" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\seleniumHuayun\testng" />
+      <recent name="F:\seleniumHuayun\src\main\resources" />
+      <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\resources\mapper" />
+      <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\resources" />
+      <recent name="F:\selenium-java-maven-testNG-reportNG-master\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -548,13 +691,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.TestNG [test]">
-    <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zd.Demo.AssertDemo" />
+  <component name="RunManager" selected="TestNG.F:/seleniumHuayun/testng/testNG.xml">
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.Demo.DemoTest" />
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zd.Demo.*" />
+          <option name="PATTERN" value="com.hy.excel.ExcelDemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -562,12 +705,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotDeom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zd.Demo.RobotDeom" />
+    <configuration name="ExcelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.excel.ExcelDemo" />
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zd.Demo.*" />
+          <option name="PATTERN" value="com.hy.excel.ExcelDemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -575,34 +718,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelDemoex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.excel.ExcelDemoex" />
       <module name="TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/res/testNG.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hy.excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hy.excel.ExcelUtil" />
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hy.excel.ExcelDemo" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="F:/seleniumHuayun/testng/testNG.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng/testNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -610,38 +754,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseManagement.Login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zd.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zd.business" />
-      <option name="MAIN_CLASS_NAME" value="com.zd.business.PurchaseManagement" />
-      <option name="METHOD_NAME" value="Login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.RobotDeom" />
-      <item itemvalue="Application.AssertDemo" />
-      <item itemvalue="TestNG.F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" />
-      <item itemvalue="TestNG.PurchaseManagement.Login" />
-      <item itemvalue="Maven.TestNG [test]" />
+      <item itemvalue="Application.DemoTest" />
+      <item itemvalue="Application.ExcelDemo" />
+      <item itemvalue="Application.ExcelUtil" />
+      <item itemvalue="Application.ExcelDemoex" />
+      <item itemvalue="TestNG.F:/seleniumHuayun/testng/testNG.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.TestNG [test]" />
-        <item itemvalue="TestNG.PurchaseManagement.Login" />
-        <item itemvalue="TestNG.F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" />
-        <item itemvalue="Application.RobotDeom" />
-        <item itemvalue="Application.AssertDemo" />
+        <item itemvalue="TestNG.F:/seleniumHuayun/testng/testNG.xml" />
+        <item itemvalue="Application.ExcelDemoex" />
+        <item itemvalue="Application.ExcelDemo" />
+        <item itemvalue="Application.DemoTest" />
+        <item itemvalue="Application.ExcelUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -840,14 +966,59 @@
       <workItem from="1557798738030" duration="4809000" />
       <workItem from="1557810998676" duration="1047000" />
       <workItem from="1557812090907" duration="4659000" />
-      <workItem from="1557816924268" duration="2998000" />
-    </task>
-    <task id="LOCAL-00018" summary="Allure报错自动截图">
-      <created>1555141823387</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1555141823387</updated>
+      <workItem from="1557816924268" duration="7663000" />
+      <workItem from="1557891561470" duration="1369000" />
+      <workItem from="1557972110330" duration="5072000" />
+      <workItem from="1557977618498" duration="5941000" />
+      <workItem from="1557999013429" duration="2525000" />
+      <workItem from="1558006502721" duration="580000" />
+      <workItem from="1558054641984" duration="4108000" />
+      <workItem from="1558060981047" duration="13940000" />
+      <workItem from="1558139092668" duration="16091000" />
+      <workItem from="1558313219707" duration="4351000" />
+      <workItem from="1558419952545" duration="1783000" />
+      <workItem from="1558421773617" duration="3231000" />
+      <workItem from="1558444543517" duration="727000" />
+      <workItem from="1558771479434" duration="4093000" />
+      <workItem from="1559110531858" duration="462000" />
+      <workItem from="1561538316654" duration="629000" />
+      <workItem from="1561596123737" duration="3483000" />
+      <workItem from="1561684223989" duration="1237000" />
+      <workItem from="1561787226949" duration="11352000" />
+      <workItem from="1561943280899" duration="607000" />
+      <workItem from="1563614075604" duration="1678000" />
+      <workItem from="1563616695207" duration="608000" />
+      <workItem from="1564042716195" duration="5375000" />
+      <workItem from="1564058560130" duration="23000" />
+      <workItem from="1564103811171" duration="718000" />
+      <workItem from="1566005074412" duration="2279000" />
+      <workItem from="1566953923273" duration="1609000" />
+      <workItem from="1567213349150" duration="16166000" />
+      <workItem from="1567565512989" duration="5160000" />
+      <workItem from="1567669473404" duration="1849000" />
+      <workItem from="1567730791189" duration="8085000" />
+      <workItem from="1567990623825" duration="2005000" />
+      <workItem from="1568468753350" duration="3000" />
+      <workItem from="1568595029004" duration="3935000" />
+      <workItem from="1570785532454" duration="291000" />
+      <workItem from="1570841869365" duration="18177000" />
+      <workItem from="1571014431307" duration="2836000" />
+      <workItem from="1571273586390" duration="2276000" />
+      <workItem from="1571360761465" duration="10069000" />
+      <workItem from="1571713595681" duration="1823000" />
+      <workItem from="1571724739000" duration="2976000" />
+      <workItem from="1571810965801" duration="2556000" />
+      <workItem from="1571898413649" duration="13811000" />
+      <workItem from="1572076517533" duration="6974000" />
+      <workItem from="1572222664348" duration="12773000" />
+      <workItem from="1572346490758" duration="3278000" />
+      <workItem from="1572502181739" duration="2218000" />
+      <workItem from="1572571196981" duration="920000" />
+      <workItem from="1572849556814" duration="617000" />
+      <workItem from="1572918027987" duration="1823000" />
+      <workItem from="1573440900745" duration="694000" />
+      <workItem from="1573818452597" duration="5000" />
+      <workItem from="1575681605995" duration="24004000" />
     </task>
     <task id="LOCAL-00019" summary="Allure报错自动截图">
       <created>1555142242511</created>
@@ -1185,43 +1356,50 @@
       <option name="project" value="LOCAL" />
       <updated>1557816980782</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Allure报错自动截图22">
+      <created>1557820536663</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1557820536663</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 56m 01s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 07m 59s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 57m 07s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 08m 59s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 57m 48s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 11m 06s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 58m 54s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 12m 56s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.04.13 at 14h 59m 39s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 14m 44s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.05.13 at 17h 20m 29s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 16m 37s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.05.13 at 17h 53m 33s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 18m 54s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__selenium-java-maven-testNG-reportNG-master_res_testNG_xml - 2019.05.13 at 19h 08m 55s.xml">
-      <configuration name="F:/selenium-java-maven-testNG-reportNG-master/res/testNG.xml" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 20m 56s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchaseManagement_Login - 2019.05.13 at 19h 40m 13s.xml">
-      <configuration name="PurchaseManagement.Login" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 23m 51s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PurchaseManagement_Login - 2019.05.13 at 21h 05m 37s.xml">
-      <configuration name="PurchaseManagement.Login" configurationId="TestNG" />
+    <history-entry file="F__seleniumHuayun_testng_testNG_xml - 2019.12.07 at 15h 27m 41s.xml">
+      <configuration name="F:/seleniumHuayun/testng/testNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1070023000" />
+    <option name="totallyTimeSpent" value="1313883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1234,9 +1412,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.22520107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.042895444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1245,8 +1422,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50139666" side_tool="true" weight="0.22252011" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827078" weight="0.9174825" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32587412" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87935656" weight="0.33146852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36363637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1254,9 +1431,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.32587412" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.117292225" side_tool="true" weight="0.97206706" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.12064343" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32914925" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.32587412" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.32587412" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32960895" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1267,9 +1444,10 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.09316354" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.09919571" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.12734585" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="SciView" order="11" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" weight="0.22252011" />
@@ -1336,10 +1514,12 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zd/testcase/ElementOpration.java</url>
-          <line>14</line>
-          <properties />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hy/business/PurchaseManagement.java</url>
+          <line>145</line>
+          <properties class="com.hy.business.PurchaseManagement" method="reviewApproval">
+            <option name="EMULATED" value="true" />
+          </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -1355,133 +1535,361 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/ListenerVerify.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Verify.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/RobotDeom.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/PoiUtile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/PoiTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/LoginTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-test-config.xml" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/TestNG.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar!/org/springframework/context/ApplicationContextInitializer.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.6/testng-6.9.6.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.6/testng-6.9.6.jar!/org/testng/xml/Parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.6/testng-6.9.6.jar!/org/testng/xml/SuiteXmlParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/extenttestng/ExtentTestNGIReporterListenerOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="168" column="53" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/testcase/subsidymanagement/usermanagement/ModifyingInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/HumanCapital/PersonnelInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.6.RELEASE/spring-test-4.2.6.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/business/HumanCapitalManage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="53">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.6/testng-6.9.6.jar!/org/testng/Reporter.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/HumanCapital/HumanCapitalMenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/CommonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/ccc.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/excel/ReadExcel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/AssertDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/YZMDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/RobotDeom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/PoiUtile.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/PoiTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Demo/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="31" column="105" lean-forward="true" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/excel/ExcelDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/excel/ExcelDemoex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/http/AbstractHttpResponseCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/AjaxElementLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/http/JsonHttpResponseCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/AddPaymentApprovalPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ServiceFillPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/HumanFillPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/AddProcurementContractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/MaterialFillPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Appium/AppCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/TestngListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/DemoBaiDu.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/SeledieDemoTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Demo/BaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/extenttestng/ExtentTestNGIReporterListenerOld.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/page/BasePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/page/CommonPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/page/HumanCapital/HumanCapitalMenuPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/page/Purchase/AddPaymentApprovalPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Appium/AppiumDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Appium/AppiumTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Appium/LoginCase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/Appium/LoginPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/MyEventListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestListenerDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Utils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/service/HomeOP.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/ElementOpration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/purchasemanagement/fillin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/pricemanagement/ModifyBidPrice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/Entry.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/ModifyingInformation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/Quit.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/subsidymanagement/usermanagement/SelectName.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/test/ReadUtile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/test/logintest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/test/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/testcase/test/wytest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/Appium/AppiumDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3383">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        <state relative-caret-position="226">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/ProjectManagement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/HumanCapitalManage.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="249" column="48" selection-start-line="249" selection-start-column="48" selection-end-line="249" selection-end-column="48" />
+        <state relative-caret-position="28043">
+          <caret line="3613" column="30" lean-forward="true" selection-start-line="3613" selection-start-column="30" selection-end-line="3613" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/Common.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/utils/Common.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="133">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListenerNew.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/testcase/utils/IdentifyCodeUtile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/SignOutOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/testNG.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/HomeOP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        <state relative-caret-position="204">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="221">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/TestFailListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ExaminationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/utils/FileDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PaymentApprovalSheetPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="498">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zd/business/PurchaseManagement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        <state relative-caret-position="260">
+          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchasingDemandPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase_VUE/PurchaseSheetPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/service/PurchaseContactPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/PurchaseContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/page/Purchase/ApprovalPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hy/business/PurchaseManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
